@@ -1,0 +1,120 @@
+body{
+    background-image: url("fondo-rosa.jpg");
+    background-repeat: no-repeat;
+    background-position:top left;
+    background-size:cover;
+    /*width:100% ;*/
+    position: relative;
+    /*padding-bottom: 3em;*/
+    min-height: 100vh;
+    /*margin: 0;
+    padding: 0;*/
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    background-color:whitesmoke;
+    justify-content:space-between;
+    padding-top: 0px;
+    border-bottom-width: 2px;
+    border-bottom-color:darkorange;
+    border-bottom-style: ridge;
+    /*font-size: 100px;*/
+}
+.logo{
+    align-items:center;
+    padding-left: 20px;
+}   
+.nombre{
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    font-size: 2em;
+}
+
+.lista {
+    margin-top: 50px;
+    color:blue;
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+
+.lista li {
+    padding-right: 20px;
+    
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.lista li a{
+
+    text-decoration:none;
+}    
+
+nav a:hover{
+    color:peru
+}
+
+.Bienvenida {
+    /*flex*/
+    display:flex;
+    background-color: peru;
+    justify-content:space-between;
+    font-style:italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    width: 100%;
+    border: 3px solid deeppink;
+    
+}
+h5{ 
+    font-family: cursive;
+    color:darkslategrey ;   
+    font-size:x-large;
+    margin-left : 20px;
+    margin-right: 20px;
+    padding: 10px;
+    
+    /*padding-top: 40px;*/
+}
+
+
+    
+    
+
+.container {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /*border-style: groove;*/
+    /*border-color: darkslategray ;*/
+    text-align:center ;
+    padding: 5px;
+
+}
+      
+
+
+
+footer{   
+    /*boton para regresar a pagina principal cual*/     
+    background-color:rgb(201, 160, 166);
+    position: absolute;
+    /*display: flex;
+    flex-direction: row;*/
+    height: 50px;
+    width: 100%; 
+    color: black;
+    font-weight: bold;
+    border-top-width: 2px;
+    border-top-color:darkorange;
+    border-top-style: ridge;
+    /*left: 0;*/
+    text-align: center;
+} 
+
+

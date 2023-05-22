@@ -1,0 +1,229 @@
+/*body{
+    background-image: url("./fotos/fondo-rosa-hojas.jpg");
+    background-repeat: no-repeat;
+    background-position:rigth bottom;
+    background-size:cover;
+    width:100% ;
+    /*height: auto;*/
+    /*margin: 0;
+    padding: 0;
+    /*position: relative;*/
+    /*padding-bottom: 3em;*/
+    /*min-height: 100vh;
+}*/
+
+body{
+    background-image: url ("./fotos/fondo-rosa-hojas.jpg");
+    background-repeat: no-repeat;
+    background-position:top left;
+    background-size:cover;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    /*width:100% ;
+    position: relative;
+    min-height: 600vh;
+    padding-bottom: 3em;
+    margin: 0;*/
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    background-color:whitesmoke;
+    justify-content:space-between;
+    padding-top: 0;
+    border-bottom-width: 2px;
+    border-bottom-color:darkorange;
+    border-bottom-style: ridge;
+    /*font-size: 100px;*/
+}
+.logo{
+    align-items:center;
+    padding-left: 20px;
+}   
+.nombre{
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.lista {
+    margin-top: 50px;
+    color:blue;
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+
+.lista li {
+    padding-right: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.lista li a{
+
+    text-decoration:none;
+}    
+
+nav a:hover{
+    color:peru
+}
+.estacion {
+    
+    display:flex;
+    background-color: peru;
+    justify-content:center;
+    font-style:italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 3px solid deeppink;
+    
+}
+main{
+    
+    display: flex;
+    flex-direction:column;
+    
+    
+}
+
+.contenedor {
+    width: 100%;
+    justify-items: center;
+    
+    
+    
+    /*justify-items: center;*/
+    
+}
+  
+.card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: peru;
+    padding: 20px;
+    margin-left: 50px;
+    
+    
+    
+}
+  
+.card img {
+    
+    max-height: 600px;
+    
+}
+  
+.talle p {
+    background-color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+    justify-content: center;
+    margin-left: 50px;
+}
+  
+aside {
+    background-color: antiquewhite;
+    padding: 10px;
+    float:right;
+    width: 20%;
+    height: 80%;
+    border-left: 3px solid rgb(204, 137, 70);
+    border-bottom:3px solid rgb(204, 137, 70) ;
+    
+    
+    
+}
+  
+.ofertas {
+    margin-bottom: 20px;
+    
+}
+h6 {
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: medium;
+    color: #333;
+}
+  
+.promocion-1 img {
+    display: block;
+    margin: 0 auto;
+}
+  
+.card img:hover {
+    transform: scale(1.2); /*la imagen flota*/
+    transition: transform 0.3s ease-in-out;
+}
+  
+h6 {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #333;
+}
+  
+
+footer{   
+    /*boton para regresar a pagina principal cual*/     
+    background-color:rgb(201, 160, 166);
+    padding-bottom: 0;
+    /*display: flex;
+    flex-direction: row;*/
+    height: 50px;
+    width: 100%; 
+    color: black;
+    font-weight: bold;
+    border-top-width: 2px;
+    border-top-color:darkorange;
+    border-top-style: ridge;
+    /*left: 0;*/
+    text-align: center;
+    
+}  
+
+
+
+
+
+
+        
+
+/*footer{   
+    /*boton para regresar a pagina principal cual*/     
+    /*background-color:rgb(201, 160, 166);
+    
+    /*display: flex;
+    flex-direction: row;*/
+    /*height: 50px;
+    width: 100%; 
+    color: black;
+    font-weight: bold;
+    /*justify-content:space-around;*/
+   /* border-top-width: 2px;
+    border-top-color:darkorange;
+    border-top-style: ridge;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}*/ 
+
+
+
+
